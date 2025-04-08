@@ -47,3 +47,7 @@ await page.getByText('Account Created! Congratulations! Your new account has bee
 await page.getByText('You can now take advantage of').click()
 await page.getByRole('link', { name: 'Continue' }).click()
 });
+test('Signup test for branching',async ({page})=>{
+    //navigate to the site
+    await page.goto( 'https://www.automationexercise.com' )
+});
